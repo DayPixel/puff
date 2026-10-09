@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Puff</title>
         <item>
+            <title>0.2.4</title>
+            <pubDate>Sat, 10 Oct 2026 04:23:33 +0900</pubDate>
+            <link>https://daypixel.kr/poff/</link>
+            <sparkle:version>202610100422</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.4/Poff-0.2.4.dmg" length="3661627" type="application/octet-stream" sparkle:edSignature="hMAwU3eb6l1IMXd9wzut0CGxs97vTmL3yp6Y9lao5n9eRe921iliSQdzfGHwLbRxTb40/B9hQHdLiObzmAjsDw=="/>
+        </item>
+        <item>
             <title>0.2.3</title>
             <pubDate>Fri, 09 Oct 2026 23:38:44 +0900</pubDate>
             <link>https://daypixel.kr/poff/</link>
@@ -28,6 +38,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kpfN9owfYwnwL/Z1lSmSfbXII8UzZN2vSpbNu4d7OkuTPmrV1wSwxEIy2sPPRhbIPCbzpQfWUYsqX4SmxoO+AA==
-length: 1896
+edSignature: 6h2+Gy13tUTnety6qmFLQgU7n0xR66nRgCzYCcsy2Bfxehwbi78bkHuZuNVHO8q6u8JxoeHyP647zcoiwV7aBw==
+length: 2630
 -->
