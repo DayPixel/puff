@@ -4,40 +4,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 -->
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Puff</title>
+        <title>Poff</title>
         <item>
-            <title>0.2.5</title>
-            <pubDate>Sat, 10 Oct 2026 06:51:35 +0900</pubDate>
+            <title>0.2.6</title>
+            <pubDate>Sat, 10 Oct 2026 08:00:13 +0900</pubDate>
             <link>https://daypixel.kr/poff/</link>
-            <sparkle:version>202610100650</sparkle:version>
-            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <sparkle:version>202610100800</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.5/Poff-0.2.5.dmg" length="3761458" type="application/octet-stream" sparkle:edSignature="8DrZ7RYBvVSpMWYElEh7rx7WnhSmctmeSUegbXhz0yxrJv8wP/eAHAQxIB0qgSV7zb06rfKbuc+LaEqtJ5nzCw=="/>
-        </item>
-        <item>
-            <title>0.2.4</title>
-            <pubDate>Sat, 10 Oct 2026 04:23:33 +0900</pubDate>
-            <link>https://daypixel.kr/poff/</link>
-            <sparkle:version>202610100422</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.4/Poff-0.2.4.dmg" length="3661627" type="application/octet-stream" sparkle:edSignature="hMAwU3eb6l1IMXd9wzut0CGxs97vTmL3yp6Y9lao5n9eRe921iliSQdzfGHwLbRxTb40/B9hQHdLiObzmAjsDw=="/>
-        </item>
-        <item>
-            <title>0.2.3</title>
-            <pubDate>Fri, 09 Oct 2026 23:38:44 +0900</pubDate>
-            <link>https://daypixel.kr/poff/</link>
-            <sparkle:version>202610092318</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.3/Poff-0.2.3.dmg" length="3629755" type="application/octet-stream" sparkle:edSignature="QZenS+CUtO4TxE925jYPorSB5vU2NZ93+U/gTJJs7DiYk+GS5CdcJHHWIkD9XMMM3O1viePPPrycTr238ShRBg=="/>
+            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.6/Poff-0.2.6.dmg" length="3778552" type="application/octet-stream" sparkle:edSignature="ejQAEtmhP86w6TD/qTZRkDOxwKstZ+Tm36Jb+cRua4/O/FTAbhtkz0aQSj1jxrCjXH57ySiEa4paeOk43kn0Dg=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: FVIYlzy94f+x0L+Gz9MhfHSPzI6C6NWwMKoDExacgX8nQBZAuK0YfUsf6qVG/DNFDF/2M6YelNKejv+b6vFfDg==
-length: 2630
+edSignature: FBe4CLHHCeM1un5mC3d2mot8mVQ5yjT6mJ/X7Xa0nQLiQACIj8XBxLslcGmPp192VOZv8Mi7VorVjO63GAr9BA==
+length: 1162
 -->
