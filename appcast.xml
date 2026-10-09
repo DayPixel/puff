@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Puff</title>
         <item>
+            <title>0.2.5</title>
+            <pubDate>Sat, 10 Oct 2026 06:51:35 +0900</pubDate>
+            <link>https://daypixel.kr/poff/</link>
+            <sparkle:version>202610100650</sparkle:version>
+            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.5/Poff-0.2.5.dmg" length="3761458" type="application/octet-stream" sparkle:edSignature="8DrZ7RYBvVSpMWYElEh7rx7WnhSmctmeSUegbXhz0yxrJv8wP/eAHAQxIB0qgSV7zb06rfKbuc+LaEqtJ5nzCw=="/>
+        </item>
+        <item>
             <title>0.2.4</title>
             <pubDate>Sat, 10 Oct 2026 04:23:33 +0900</pubDate>
             <link>https://daypixel.kr/poff/</link>
@@ -25,19 +35,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.3/Poff-0.2.3.dmg" length="3629755" type="application/octet-stream" sparkle:edSignature="QZenS+CUtO4TxE925jYPorSB5vU2NZ93+U/gTJJs7DiYk+GS5CdcJHHWIkD9XMMM3O1viePPPrycTr238ShRBg=="/>
         </item>
-        <item>
-            <title>0.2.1</title>
-            <pubDate>Fri, 09 Oct 2026 16:02:11 +0900</pubDate>
-            <link>https://daypixel.kr/puff/</link>
-            <sparkle:version>202610091600</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.1/Puff-0.2.1.dmg" length="3564127" type="application/octet-stream" sparkle:edSignature="9bwIn0X0Em9allCb8xYJI2E221wNbR7gy+NPj3wrYsXO3y7RQb1JvGRVqtA4TYALLzufFP4H36RP2zT8oZz6Bw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6h2+Gy13tUTnety6qmFLQgU7n0xR66nRgCzYCcsy2Bfxehwbi78bkHuZuNVHO8q6u8JxoeHyP647zcoiwV7aBw==
+edSignature: FVIYlzy94f+x0L+Gz9MhfHSPzI6C6NWwMKoDExacgX8nQBZAuK0YfUsf6qVG/DNFDF/2M6YelNKejv+b6vFfDg==
 length: 2630
 -->
