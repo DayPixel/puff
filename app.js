@@ -8,7 +8,8 @@
   const friend = document.querySelector('.friend-mint');
   const dialog = document.querySelector('.film-dialog');
   const film = document.querySelector('.full-film');
-  const filmLink = document.querySelector('.film-link');
+  const filmLinks = document.querySelectorAll('.film-link, .film-stage');
+  let filmTrigger = filmLinks[0];
   const animations = new Set();
   let userPaused = false;
   let previewVisible = false;
@@ -102,13 +103,14 @@
     }, 2300);
   });
 
-  filmLink.addEventListener('click', event => {
+  filmLinks.forEach(link => link.addEventListener('click', event => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
+    filmTrigger = link;
     dialog.showModal();
     syncMotion();
     film.play().catch(() => {});
-  });
+  }));
   document.querySelector('.film-close').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('close', () => { film.pause(); syncMotion(); filmLink.focus({ preventScroll: true }); });
+  dialog.addEventListener('close', () => { film.pause(); syncMotion(); filmTrigger.focus({ preventScroll: true }); });
 })();
