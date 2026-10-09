@@ -59,7 +59,7 @@ h1 span { color: var(--mint); }
 .button-secondary:hover { background: #272d36; border-color: var(--muted); }
 .requirement { display: block; font-size: 11px; color: var(--muted); margin-top: 10px; }
 .hero-note { font-size: 11px; color: var(--muted); line-height: 1.8; margin: 21px 0 0; }
-.hero-note a { margin-left: 9px; text-decoration: underline; text-underline-offset: 3px; }
+.hero-note a { text-decoration: underline; text-underline-offset: 3px; }
 .hero-friend { position: absolute; width: 118px; color: var(--mint); }
 .hero-friend svg { display: block; width: 100%; overflow: visible; }
 .friend-peach { left: 4%; top: 235px; width: 86px; color: var(--peach); transform: rotate(-12deg); }
@@ -120,9 +120,7 @@ h1 span { color: var(--mint); }
 .download-option .button:hover { border-color: var(--mint); }
 .download-option .button span { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: auto; }
 .download-option .button svg { width: 17px; }
-.build-status { font-size: 12px; line-height: 1.7; color: var(--mint); margin: 14px 0 18px; }
-.download-option:nth-child(2) .build-status { color: var(--peach); }
-.download-option details { border-top: 1px solid var(--line); }
+.download-option details { margin-top: 18px; border-top: 1px solid var(--line); }
 .download-option summary { font-size: 13px; padding-block: 17px; cursor: pointer; }
 .detail-content { font-size: 13px; line-height: 1.8; color: var(--muted); }
 .detail-content ol { padding-left: 19px; margin: 0 0 18px; }
@@ -183,7 +181,7 @@ html:has(.film-dialog[open]) { overflow: hidden; }
   .hero-actions .arrow { display: none; }
   .requirement { font-size: 10px; margin-top: 9px; }
   .hero-note { font-size: 10px; margin-top: 19px; }
-  .hero-note a { margin-left: 5px; white-space: nowrap; }
+  .hero-note a { white-space: nowrap; }
   .hero-friend { top: 6px; }
   .friend-mint { width: 58px; right: calc(50% - 88px); transform: rotate(10deg); }
   .friend-peach { top: 32px; width: 42px; left: calc(50% - 81px); }
@@ -221,7 +219,6 @@ html:has(.film-dialog[open]) { overflow: hidden; }
   .os-title h3 { font-size: 26px; }
   .download-option .button { font-size: 13px; }
   .download-option .button span { font-size: 11px; }
-  .build-status { font-size: 11px; }
   .release-links { margin-top: 20px; font-size: 11px; }
   .faq { display: block; padding-top: 55px; padding-bottom: 50px; }
   .faq h2 { font-size: 24px; }
