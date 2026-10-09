@@ -8,7 +8,7 @@ DayPixel이 만드는 작은 작업 친구, 포프(Poff)의 공식 홈페이지�
 
 공식 홈페이지는 DayPixel/daypixel.github.io 저장소의 `poff/`에 게시합니다. `index.html`, `styles.css`, `app.js`, `sitemap.xml`과 현재 페이지가 사용하는 `assets/` 파일을 복사합니다. 앱 소스, 인증 정보, 서버 키는 공개하지 않습니다.
 
-DayPixel/puff 저장소는 기존 다운로드·업데이트 경로를 유지합니다. 해당 저장소의 `index.html`에는 `legacy-puff/index.html`을 게시하여 새 홈페이지로 연결합니다. 기존 `appcast.xml`과 Google 소유권 확인 파일은 그대로 보존합니다.
+DayPixel/puff 저장소는 기존 다운로드·업데이트 경로를 유지합니다. 해당 저장소의 `index.html`에는 `legacy-puff/index.html`을 게시하여 새 홈페이지로 연결합니다. 기존 `appcast.xml`과 Google 소유권 확인 파일은 그대로 보존합니다. 기존 사이트맵은 `/puff/`의 이동을 검색엔진이 발견할 수 있도록 유지하고, 새 사이트맵은 회사 사이트와 `/poff/`에 게시합니다.
 
 ## v0.2.2 공개 베타
 
