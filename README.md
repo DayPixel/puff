@@ -3,27 +3,30 @@
 DayPixel이 만드는 작은 작업 친구, 포프(Poff)의 공식 홈페이지와 배포 파일을 제공합니다.
 
 - 홈페이지: https://daypixel.kr/poff/
+- 영문 홈페이지: `en/index.html` → https://daypixel.kr/poff/en/
 - 다운로드: https://github.com/DayPixel/puff/releases
 - 문의: eunhafactory@daypixel.kr
 
 공식 홈페이지는 DayPixel/daypixel.github.io 저장소의 `poff/`에 게시합니다. `index.html`, `styles.css`, `app.js`, `sitemap.xml`과 현재 페이지가 사용하는 `assets/` 파일을 복사합니다. 앱 소스, 인증 정보, 서버 키는 공개하지 않습니다.
 
+영문판은 `en/`을 함께 복사합니다. 한국어·영어 페이지의 언어 링크, canonical·hreflang과 사이트맵은 각 경로를 구분합니다. 영문판에는 영어 자막과 UI로 연출한 39초 16:9 영상과 포스터를 사용합니다. 다운로드 링크와 softwareVersion은 한국어·영어를 지원하는 v0.2.3 파일을 가리킵니다. GitHub 릴리스에 해당 파일을 먼저 게시하고 다운로드 응답을 확인한 다음 홈페이지를 게시합니다. 로컬 파일 수정만으로 공개 배포가 완료되지는 않습니다.
+
 DayPixel/puff 저장소는 기존 다운로드·업데이트 경로를 유지합니다. 해당 저장소의 `index.html`에는 `legacy-puff/index.html`을 게시하여 새 홈페이지로 연결합니다. 기존 `appcast.xml`과 Google 소유권 확인 파일은 그대로 보존합니다. 기존 사이트맵은 `/puff/`의 이동을 검색엔진이 발견할 수 있도록 유지하고, 새 사이트맵은 회사 사이트와 `/poff/`에 게시합니다.
 
-## v0.2.2 공개 베타
+## v0.2.3 공개 베타
 
-앱과 캐릭터 이름을 포프로 통일했습니다. 기존 프로필·방·초대 링크와 업데이트 주소는 그대로 유지합니다.
+Mac·Windows 앱에 한국어·영어 UI를 제공합니다. 시스템 언어가 한국어이면 한국어로, 그 외에는 영어로 시작합니다. Mac은 설정 → Language / 언어, Windows는 트레이의 언어 메뉴에서 직접 바꿀 수 있습니다. 기존 프로필·방·초대 링크와 업데이트 주소는 그대로 유지합니다.
 
 다운로드 파일은 실제 서버 설정이 포함된 앱입니다. 데모 전용 빌드가 아닙니다.
 
 - Mac: Apple Silicon / macOS 14 이상. DayPixel Developer ID 서명과 앱·DMG의 Apple 공증을 완료했습니다. DMG 내부 앱의 서명·공증 티켓과 Gatekeeper 통과를 확인했습니다.
 - Windows: Windows 10 22H2 / Windows 11 x64 대상. 코드 서명과 실제 Windows 기기 검증 전입니다.
 
-Windows 핵심·움직임·업데이트 79개 검사, 실서버 인증·private 채널 접근 7개 검사 및 Windows x64 교차 빌드를 확인했습니다. Mac과 Windows 사이에서 실제 기기로 함께 사용하는 검증은 남아 있습니다.
+Windows x64 교차 빌드와 한국어·영어 리소스 검사를 확인했습니다. Mac과 Windows 사이에서 실제 기기로 함께 사용하는 검증은 남아 있습니다.
 
 Mac 배포본의 데모 메뉴를 제거했습니다. Windows 꾸미기는 큰 미리보기와 부위별 선택 탭으로 바뀌었으며, EXE를 실행해 현재 사용자 계정에 설치합니다. 기존 프로필·방·로그인 정보는 유지합니다.
 
-Mac은 Sparkle, Windows 설치형은 Velopack으로 새 버전을 확인하고 사용자가 설치를 선택하면 적용합니다. 기존 0.2.0 사용자는 이번 버전을 한 번 직접 설치해야 합니다. Windows 0.2.1 사용자는 앱의 업데이트 확인 메뉴를 이용할 수 있습니다. Mac 0.2.2는 DMG로 직접 설치해야 하며, 이번 버전의 자동 업데이트 피드 반영은 아직 완료되지 않았습니다. Windows 보조 ZIP에는 설치형 업데이트가 적용되지 않습니다. Mac 업데이트 피드 `appcast.xml`은 서명된 파일이므로 수작업으로 수정하지 않습니다.
+Mac은 Sparkle, Windows 설치형은 Velopack으로 새 버전을 확인하고 사용자가 설치를 선택하면 적용합니다. 설치된 앱에서는 업데이트 확인 메뉴를 이용할 수 있습니다. 0.2.0 사용자와 Windows 포터블 ZIP 사용자는 이번 버전을 한 번 직접 설치해야 합니다. Windows 포터블 ZIP에는 설치형 업데이트가 적용되지 않습니다. v0.2.3 Mac 피드와 DMG 서명을 번들 공개키로 검증했고, 변경된 데이터가 거부되는 것을 확인했습니다. Windows 사전 릴리스 피드 조회 설정도 확인했습니다. 기존 Mac·Windows 기기에서 실제 업데이트 설치·재시작을 완료하는 검증은 남아 있습니다. Mac 업데이트 피드 `appcast.xml`은 서명된 파일이므로 수작업으로 수정하지 않습니다.
 
 현재 Windows에는 자동 작업 감지, 작업 통계·기지개 알림, 일부 움직임 효과가 없습니다. 설치 방법과 버전별 제한은 홈페이지와 Release 안내를 확인해 주세요.
 

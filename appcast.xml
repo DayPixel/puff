@@ -1,8 +1,20 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Puff</title>
+        <item>
+            <title>0.2.3</title>
+            <pubDate>Fri, 09 Oct 2026 23:38:44 +0900</pubDate>
+            <link>https://daypixel.kr/poff/</link>
+            <sparkle:version>202610092318</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.3/Poff-0.2.3.dmg" length="3629755" type="application/octet-stream" sparkle:edSignature="QZenS+CUtO4TxE925jYPorSB5vU2NZ93+U/gTJJs7DiYk+GS5CdcJHHWIkD9XMMM3O1viePPPrycTr238ShRBg=="/>
+        </item>
         <item>
             <title>0.2.1</title>
             <pubDate>Fri, 09 Oct 2026 16:02:11 +0900</pubDate>
@@ -11,10 +23,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.1/Puff-0.2.1.dmg" length="3564127" type="application/octet-stream" sparkle:edSignature="9bwIn0X0Em9allCb8xYJI2E221wNbR7gy+NPj3wrYsXO3y7RQb1JvGRVqtA4TYALLzufFP4H36RP2zT8oZz6Bw=="></enclosure>
+            <enclosure url="https://github.com/DayPixel/puff/releases/download/v0.2.1/Puff-0.2.1.dmg" length="3564127" type="application/octet-stream" sparkle:edSignature="9bwIn0X0Em9allCb8xYJI2E221wNbR7gy+NPj3wrYsXO3y7RQb1JvGRVqtA4TYALLzufFP4H36RP2zT8oZz6Bw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: KBWZ4QLxyTIkpvodrqic+a0xNltfwqhCiuprunIU6sRqk03TFKnKKtSNb56dwjBR8rxGFe6HsJMrdc8i4lpXCA==
-length: 1170
+</rss>
+<!-- sparkle-signatures:
+edSignature: kpfN9owfYwnwL/Z1lSmSfbXII8UzZN2vSpbNu4d7OkuTPmrV1wSwxEIy2sPPRhbIPCbzpQfWUYsqX4SmxoO+AA==
+length: 1896
 -->
