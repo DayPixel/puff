@@ -12,7 +12,7 @@ DayPixel이 만드는 작은 작업 친구, Puff의 공식 홈페이지와 배�
 
 다운로드 파일은 실제 서버 설정이 포함된 앱입니다. 데모 전용 빌드가 아닙니다.
 
-- Mac: Apple Silicon / macOS 14 이상. 임시 서명 상태이며 Apple 공증 전입니다.
+- Mac: Apple Silicon / macOS 14 이상. DayPixel Developer ID 서명과 앱·DMG의 Apple 공증을 완료했습니다. DMG 내부 앱의 서명·공증 티켓과 Gatekeeper 통과를 확인했습니다.
 - Windows: Windows 10 22H2 / Windows 11 x64 대상. 코드 서명과 실제 Windows 기기 검증 전입니다.
 
 Windows 핵심 동작 73개 검사, 실서버 인증·private 채널 접근 7개 검사 및 Windows x64 교차 빌드를 확인했습니다. Mac과 Windows 사이에서 실제 기기로 함께 사용하는 검증은 남아 있습니다.
