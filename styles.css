@@ -75,8 +75,8 @@ h1 span { color: var(--mint); }
 .is-greeting .greeting-bubble { opacity: 1; }
 .scroll-cue { margin: 42px auto 0; display: inline-flex; align-items: center; gap: 13px; font-size: 11px; color: var(--muted); }
 .scroll-cue span { display: inline-block; }
-.motion-ready:not(.motion-paused) .is-visible .float { animation: float 6s ease-in-out infinite; }
-.motion-ready:not(.motion-paused) .friend-peach .float { animation-delay: -2s; animation-duration: 7s; }
+.motion-ready .is-visible .float { animation: float 6s ease-in-out infinite; }
+.motion-ready .friend-peach .float { animation-delay: -2s; animation-duration: 7s; }
 @keyframes float { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-19px) rotate(3deg); } }
 .preview { margin-top: 10px; margin-bottom: 0; }
 .preview-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 17px; }
