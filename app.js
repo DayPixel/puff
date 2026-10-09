@@ -95,7 +95,7 @@
   greeting.addEventListener('click', () => {
     clearTimeout(greetingTimer);
     friend.classList.add('is-greeting');
-    document.querySelector('.greeting-status').textContent = '퍼프도 반갑게 인사해요!';
+    document.querySelector('.greeting-status').textContent = '포프도 반갑게 인사해요!';
     animate(greeting, [{ transform: 'rotate(0)' }, { transform: 'rotate(-14deg) translateY(-8px)', offset: .2 }, { transform: 'rotate(12deg)', offset: .4 }, { transform: 'rotate(-10deg)', offset: .6 }, { transform: 'rotate(6deg)', offset: .8 }, { transform: 'rotate(0)' }], { duration: 850, easing: 'ease-in-out' });
     greetingTimer = setTimeout(() => {
       friend.classList.remove('is-greeting');
